@@ -1,5 +1,5 @@
 ## This repository is created to cover some of basic understanding about Git and GitHub.<br /> ##
-It covers:<br /> 
+This covers:<br /> 
          1) What is Git?<br />
          2) Git core concepts.<br />
          3) How to install Git on Windows.<br /> 
