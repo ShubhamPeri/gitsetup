@@ -1,4 +1,4 @@
-This repository is created to cover some of basic understanding about Git and GitHub.
+This repository is created to cover some of basic understanding about Git and GitHub.\n
 It covers:
        1) What is Git?
        2) Git core concepts.
