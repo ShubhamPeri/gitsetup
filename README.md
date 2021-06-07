@@ -21,4 +21,4 @@ This covers:<br />
          3. Git repository (when the code is pushed).<br />
 
 ## Topic 3) How to install Git on Windows?<br /> ##
-- Download the Git from this link [Windows Installer x32/x64 bit] (https://git-scm.com/download/win)
+- Download the Git from this link [Windows Setup x32/x64 bit] (https://git-scm.com/download/win)
