@@ -5,4 +5,5 @@ It covers:<br />
        3) How to install Git on Windows.<br />
        4) Knowledge of Git Commands.<br />
        5) Collaborating Git and Github.<br />
-       6) Git branching, merging and merge conflicts.<br />
+       6) Git branching, merging and merge conflicts.<br /><br />
+Topic 1) What is Git?<br />
