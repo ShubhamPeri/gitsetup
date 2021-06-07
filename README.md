@@ -7,3 +7,8 @@ This covers:<br />
          5) Collaborating Git and Github.<br />
          6) Git branching, merging and merge conflicts.<br /><br />
 ## Topic 1) What is Git?<br /> ##
+- Git is a decentralized and distributed version control system.
+- Highly scabale.
+- Open source and free.
+- Most of the git operations are local.
+- It is very fast and has active community to solve the issues.
