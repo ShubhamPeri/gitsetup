@@ -1,8 +1,8 @@
-This repository is created to cover some of basic understanding about Git and GitHub.\n
-It covers:
-       1) What is Git?
-       2) Git core concepts.
-       3) How to install Git on Windows.
-       4) Knowledge of Git Commands.
-       5) Collaborating Git and Github.
-       6) Git branching, merging and merge conflicts.
+This repository is created to cover some of basic understanding about Git and GitHub. <br />
+It covers:<br />
+       1) What is Git?<br />
+       2) Git core concepts.<br />
+       3) How to install Git on Windows.<br />
+       4) Knowledge of Git Commands.<br />
+       5) Collaborating Git and Github.<br />
+       6) Git branching, merging and merge conflicts.<br />
