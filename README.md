@@ -77,10 +77,47 @@ This covers:<br />
   - paste the token in the password field while pushing the code.
 ## Topic 5) Demonstration ##
 ![image](https://user-images.githubusercontent.com/58199878/121227791-d4e26100-c840-11eb-9663-06dd2ab34a7d.png)
-Follow all the steps mentioned in previous topic.<br />
+Follow all the steps mentioned in previous topic.
 ![image](https://user-images.githubusercontent.com/58199878/121227890-f0e60280-c840-11eb-998b-ab3a1b4f0e0e.png)
 You only need to authentcate once for pushing the code into github repository.
 ## Topic 5) Git branching, merging and merge conflicts ##
-- Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file.
-- To resolve a merge conflict caused by competing line changes, you must choose which changes to incorporate from the different branches in a new commit.
+- **Merge conflicts** occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file.
+- To resolve a merge conflict caused by competing line changes, you must choose which changes to incorporate from the different branches in a new commit.<br />
+![image](https://user-images.githubusercontent.com/58199878/121238566-16790900-c84d-11eb-86c1-7e32186e332c.png)
+- Firstly, edit the file `demo.txt` from github by appending some text to the existing line. 
+- From the git bash, edit the same file by adding text to the line.
+- In this case, github file version has `Hello, Good morning, Have a great day!`. While git bash file has `Hello, Good morning, Take care` text.
+- If you try to perform git pull, an error will occur stating `merge conflict in demo.txt`
+- open the file in text editor and decide when version to keep.
+![image](https://user-images.githubusercontent.com/58199878/121237815-4e338100-c84c-11eb-800f-d47594bc24df.png)
+- The text between `<<<<<<<` and `=======` is the git bash version whereas the text between  `=======` and `>>>>>>>>` is the github version.
+- Remove the unwanted line and keep ony the required one. In this case it is `Hello, Good morning, Have a great day!`.
+- **Branching** is a feature available in most modern version control systems. Instead of copying files from directory to directory, Git stores a branch as a reference to a commit. In this sense, a branch represents the tip of a series of commits—it's not a container for commits.
+##### Command Listing ######
+- git branch -----> `will show the default branch`
+- git branch {branch_name} -----> `add a new branch`
+- git checkout {branch_name} -----> `change the branch to new_branch
+- edit the file demo.txt
+- git add demo.txt
+- git commit -m "New lines added to the file demo.txt"
+- cat demo.txt -----> `display the content of the file with new changes`
+- git checkout main/master
+- cat demo.txt -----> `This file won't have the changes made to the file in new_branch`
+![image](https://user-images.githubusercontent.com/58199878/121238606-21339e00-c84d-11eb-9e5c-028568d2c8a9.png)
+- **Merging** is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+##### Command Listing ######
+- git checkout main/master
+- cat demo.txt
+- git merge {branch_name}
+- cat demo.txt
+- git push -u origin master/main -----> `changes will be pushed to main/master github repository`
+- git checkout {branch_name}
+- git push -----> `Error: No upstream branch`
+- git push --set-upstream origin feature -----> `New branch created in github repository`
+![image](https://user-images.githubusercontent.com/58199878/121238658-30b2e700-c84d-11eb-9bda-19c5158a5362.png)
+
+
+## Enjoy learning! Feel free to connect in case of any questions. ##
+
+
 
