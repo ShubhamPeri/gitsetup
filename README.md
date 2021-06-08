@@ -77,7 +77,7 @@ This covers:<br />
   - paste the token in the password field while pushing the code.
 ## Topic 5) Demonstration ##
 ![image](https://user-images.githubusercontent.com/58199878/121226057-fe9a8880-c83e-11eb-87a0-3fff640b574a.png)
-- Follow all the steps mentioned in previous topic.
+- Follow all the steps mentioned in previous topic.<br />
 ![image](https://user-images.githubusercontent.com/58199878/121227163-22120300-c840-11eb-8e8b-b8cdf26a37bc.png)
 - You only need to authenticate once for pushing the code into the repository.
 
