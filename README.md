@@ -77,7 +77,7 @@ This covers:<br />
   - paste the token in the password field while pushing the code.
 ## Topic 5) Demonstration ##
 ![image](https://user-images.githubusercontent.com/58199878/121227791-d4e26100-c840-11eb-9663-06dd2ab34a7d.png)
-Follow all the steps mentioned in previous topic.<br />
+Follow all the steps mentioned in previous topic.
 ![image](https://user-images.githubusercontent.com/58199878/121227890-f0e60280-c840-11eb-998b-ab3a1b4f0e0e.png)
 You only need to authentcate once for pushing the code into github repository.
 ## Topic 5) Git branching, merging and merge conflicts ##
@@ -88,7 +88,7 @@ You only need to authentcate once for pushing the code into github repository.
 - From the git bash, edit the same file by adding text to the line.
 - In this case, github file version has `Hello, Good morning, Have a great day!`. While git bash file has `Hello, Good morning, Take care` text.
 - If you try to perform git pull, an error will occur stating `merge conflict in demo.txt`
-- open the file in text editor and decide when version to keep.<br />
+- open the file in text editor and decide when version to keep.
 ![image](https://user-images.githubusercontent.com/58199878/121237815-4e338100-c84c-11eb-800f-d47594bc24df.png)
 - The text between `<<<<<<<` and `=======` is the git bash version whereas the text between  `=======` and `>>>>>>>>` is the github version.
 - Remove the unwanted line and keep ony the required one. In this case it is `Hello, Good morning, Have a great day!`.
@@ -102,7 +102,7 @@ You only need to authentcate once for pushing the code into github repository.
 - git commit -m "New lines added to the file demo.txt"
 - cat demo.txt -----> `display the content of the file with new changes`
 - git checkout main/master
-- cat demo.txt -----> `This file won't have the changes made to the file in new_branch`<br />
+- cat demo.txt -----> `This file won't have the changes made to the file in new_branch`
 ![image](https://user-images.githubusercontent.com/58199878/121238606-21339e00-c84d-11eb-9e5c-028568d2c8a9.png)
 - **Merging** is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
 ##### Command Listing ######
@@ -113,7 +113,7 @@ You only need to authentcate once for pushing the code into github repository.
 - git push -u origin master/main -----> `changes will be pushed to main/master github repository`
 - git checkout {branch_name}
 - git push -----> `Error: No upstream branch`
-- git push --set-upstream origin feature -----> `New branch created in github repository`<br />
+- git push --set-upstream origin feature -----> `New branch created in github repository`
 ![image](https://user-images.githubusercontent.com/58199878/121238658-30b2e700-c84d-11eb-9bda-19c5158a5362.png)
 
 
