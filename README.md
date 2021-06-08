@@ -36,11 +36,11 @@ This covers:<br />
 
 ## Topic 4) Knowledge of Git Commands <br /> ##
 #### 1. Setup the Project Folder ####
-##### Command Listing ######
-- pwd (Open git bash ---> type pwd) -----> Points at (/c/Users/{user_name}).
-- mkdir {new_directory_name}
-- cd {new_directory_name}
-- pwd ----->  (/c/Users/{user_name}/{new_directory_name})
+#####   - Command Listing ######
+          - pwd (Open git bash ---> type pwd) -----> Points at (/c/Users/{user_name}).
+          - mkdir {new_directory_name}
+          - cd {new_directory_name}
+          - pwd ----->  (/c/Users/{user_name}/{new_directory_name})
 #### 2. Git Configuration ####
 ##### Command Listing #####
 - git version
