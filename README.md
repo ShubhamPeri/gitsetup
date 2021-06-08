@@ -25,9 +25,9 @@ This covers:<br />
 - Once downloaded, open the executable file.
 - Accept the license agreement, click next.
 - Let it create the git folder in [C:\Program Files\Git] location.
-- Adjusting PATH environment, you can either select <br />
-            option 2) `use git from windows command prompt` <br />
-       or   option 3) `use git and unix tool from command prompt` depending on your need.
+- Adjusting PATH environment, you can select either options <br />
+               `use git from windows command prompt` <br />
+            OR `use git and unix tool from command prompt` depending on your need.
 - HTTPS transport backend, select `use openSSL library`.
 - Configuring line ending conversions, select `checkout as-is,commit unix-style line ending`.
 - Terminal emulator, choose the default `use MinTTY`.
