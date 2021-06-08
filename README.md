@@ -1,4 +1,4 @@
-## A quick introduction to Git with an hands on example starting with GitHub, making local changes and back to GitHub again.<br /> ##
+## A quick introduction to Git with an hands on example starting with GitHub, making local changes and back to GitHub again. ##
 This covers:<br /> 
          1. What is Git?<br />
          2. Git core concepts.<br />
