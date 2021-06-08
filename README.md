@@ -12,14 +12,12 @@ This covers:<br />
 - Open source and free.
 - Most of the git operations are local.
 - It is very fast and has active community to solve the issues.
-
 ## Topic 2) Git core concepts<br /> ##
 - Repository contains files, history, configuartion manged by git.
 - Three states of git:<br />
          1. Working directory (on local machine).<br />
          2. Staging area (when the code is committed but not pushed).<br />
          3. Git repository (when the code is pushed).<br />
-
 ## Topic 3) How to install Git on Windows?<br /> ##
 - Download the Git from this link [Windows Setup x32/x64 bit] (https://git-scm.com/download/win).
 - Once downloaded, open the executable file.
@@ -33,14 +31,13 @@ This covers:<br />
 - Terminal emulator, choose the default `use MinTTY`.
 - Extra feature, choose `enable file system caching` & `enable git credential manager`.
 - Final step, click on `install`. On the start menu, you can see git GUI, git bash, git cmd.
-
 ## Topic 4) Knowledge of Git Commands <br /> ##
 #### 1. Setup the Project Folder ####
 #####   Command Listing ######
- - pwd (Open git bash ---> type pwd) -----> Points at (/c/Users/{user_name}).
+ - pwd (Open git bash ---> type pwd) -----> `Points at (/c/Users/{user_name})`
  - mkdir {new_directory_name}
  - cd {new_directory_name}
- - pwd ----->  (/c/Users/{user_name}/{new_directory_name})
+ - pwd ----->  `(/c/Users/{user_name}/{new_directory_name})`
 #### 2. Git Configuration ####
 ##### Command Listing #####
 - git version
