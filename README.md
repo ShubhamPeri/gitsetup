@@ -4,7 +4,7 @@ This covers:<br />
          2. Git core concepts.<br />
          3. How to install Git on Windows.<br /> 
          4. Knowledge of Git Commands.<br />
-         5. Collaborating Git and Github.<br />
+         5. Demonstration.<br />
          6. Git branching, merging and merge conflicts.
 ## Topic 1) What is Git?<br /> ##
 - Git is a decentralized and distributed version control system.
@@ -47,20 +47,32 @@ This covers:<br />
 #### 3. Copy the Repository (clone) ####
 ##### Command Listing #####
 - git clone {your_github_repository_path}
-- ls
-- cd github-demo
-- ls
+- ls -----> `{your_github_repository})`
+- cd {your_github_repository}
+- pwd -----> `(/c/Users/{user_name}/{new_directory_name}/{your_github_repository_path})`
+- ls -----> `It will shows all the files you have in repository`
 - git status
 #### 4. The First Commit ####
 ##### Command Listing #####
-echo "Test Git Quick Start demo" >> start.txt
-ls
-cat start.txt
-git status
-git add start.txt
-git status
-git commit -m "Adding start text file"
-git status
+- touch demo.txt -----> `It will create a new empty file touch.txt`
+- echo "Hello, Good morning" >> demo.txt
+- ls
+- cat demo.txt
+- git status -----> `It will show one untracked file, pointed in red colour`
+- git add demo.txt -----> `It you want to add multiple files, use git add .`
+- git status
+- git commit -m "Adding start text file" -----> `commit moves from the file from local repo to staging area`
+- git status
 #### 5. Publishing Changes to GitHub (push) ####
 ##### Command Listing #####
-git push origin master
+- git push -u origin master/main -----> `pushes the file from staging area to github`
+By default, GitHub uses the term **"master"** for the primary version of a source code repository. Since, Oct. 1, 2020, any new repositories you create will use **main** as the default branch instead of master.<br />
+When you push the code for the first time it will ask you to enter the github username and password for authentication purpose.<br />
+**Exception:**<br />
+If you have multi-factor authentication enabled on github, your github password won't bypass the authentication method. In this case, you will need `personal access token`.
+- go to settings on github.
+- select developer settings.
+- choose personal access token.
+- copy the token.
+- paste the token in the password field while pushing the code.
+
