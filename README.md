@@ -80,7 +80,7 @@ This covers:<br />
 Follow all the steps mentioned in previous topic.<br />
 ![image](https://user-images.githubusercontent.com/58199878/121227890-f0e60280-c840-11eb-998b-ab3a1b4f0e0e.png)
 You only need to authentcate once for pushing the code into github repository.
-
-
-
+## Topic 5) Git branching, merging and merge conflicts ##
+- Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file.
+- To resolve a merge conflict caused by competing line changes, you must choose which changes to incorporate from the different branches in a new commit.
 
