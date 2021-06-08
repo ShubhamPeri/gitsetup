@@ -21,4 +21,13 @@ This covers:<br />
          3. Git repository (when the code is pushed).<br />
 
 ## Topic 3) How to install Git on Windows?<br /> ##
-- Download the Git from this link [Windows Setup x32/x64 bit] (https://git-scm.com/download/win)
+- Download the Git from this link [Windows Setup x32/x64 bit] (https://git-scm.com/download/win).
+- Once downloaded, open the executable file.
+- Accept the license agreement, click next.
+- Let it create the git folder in [C:\Program Files\Git] location.
+- Adjusting PATH environment, you can either select option 2) `use git from windows command prompt` or option 3) `use git and unix tool from command prompt` depending on your need.
+- HTTPS transport backend, select `use openSSL library`.
+- Configuring line ending conversions, select `checkout as-is,commit unix-style line ending`.
+- Terminal emulator, choose the default `use MinTTY`.
+- Extra feature, choose `enable file system caching` & `enable git credential manager`.
+- Final step, click on install. On the start menu, you can see git GUI, git bash, git cmd.
