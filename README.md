@@ -1,4 +1,4 @@
-## This repository is created to cover some of basic understanding about Git and GitHub.<br /> ##
+## A quick introduction to Git with an hands on example starting with GitHub, making local changes and back to GitHub again.<br /> ##
 This covers:<br /> 
          1. What is Git?<br />
          2. Git core concepts.<br />
