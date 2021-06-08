@@ -35,26 +35,26 @@ This covers:<br />
 - Final step, click on `install`. On the start menu, you can see git GUI, git bash, git cmd.
 
 ## Topic 4) Knowledge of Git Commands <br /> ##
-#### Setup the Project Folder ####
+#### 1. Setup the Project Folder ####
 ##### Command Listing ######
 - pwd (Open git bash ---> type pwd) -----> Points at (/c/Users/{user_name}).
 - mkdir {new_directory_name}
 - cd {new_directory_name}
 - pwd ----->  (/c/Users/{user_name}/{new_directory_name})
-#### Git Configuration ####
+#### 2. Git Configuration ####
 ##### Command Listing #####
 - git version
 - git config --global user.name "Abe Lincoln"
 - git config --global user.email "mrabe@git.training"
 - git config --global --list
-#### Copy the Repository (clone) ####
+#### 3. Copy the Repository (clone) ####
 ##### Command Listing #####
 - git clone https://github.com/prezlincoln/github-demo.git
 - ls
 - cd github-demo
 - ls
 - git status
-#### The First Commit ####
+#### 4. The First Commit ####
 ##### Command Listing #####
 echo "Test Git Quick Start demo" >> start.txt
 ls
@@ -64,6 +64,6 @@ git add start.txt
 git status
 git commit -m "Adding start text file"
 git status
-#### Publishing Changes to GitHub (push) ####
+#### 5. Publishing Changes to GitHub (push) ####
 ##### Command Listing #####
 git push origin master
