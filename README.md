@@ -76,5 +76,11 @@ This covers:<br />
   - copy the token.
   - paste the token in the password field while pushing the code.
 ## Topic 5) Demonstration ##
-![image](https://user-images.githubusercontent.com/58199878/121224074-0b1de180-c83d-11eb-8b4b-8072d4bb2af1.png)
+![image](https://user-images.githubusercontent.com/58199878/121227791-d4e26100-c840-11eb-9663-06dd2ab34a7d.png)
+Follow all the steps mentioned in previous topic.<br />
+![image](https://user-images.githubusercontent.com/58199878/121227890-f0e60280-c840-11eb-998b-ab3a1b4f0e0e.png)
+You only need to authentcate once for pushing the code into github repository.
+## Topic 5) Git branching, merging and merge conflicts ##
+- Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file.
+- To resolve a merge conflict caused by competing line changes, you must choose which changes to incorporate from the different branches in a new commit.
 
