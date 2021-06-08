@@ -117,7 +117,7 @@ You only need to authentcate once for pushing the code into github repository.
 ![image](https://user-images.githubusercontent.com/58199878/121238658-30b2e700-c84d-11eb-9bda-19c5158a5362.png)
 
 
-## Try Configuring git and join git and github together. Enjoy learning!. ##
+## Enjoy learning! Feel free to connect in case of any questions. ##
 
 
 
