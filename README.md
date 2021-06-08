@@ -65,14 +65,14 @@ This covers:<br />
 - git status
 #### 5. Publishing Changes to GitHub (push) ####
 ##### Command Listing #####
-- git push -u origin master/main -----> `pushes the file from staging area to github`
+- git push -u origin master/main -----> `pushes the file from staging area to github`<br />
 By default, GitHub uses the term **"master"** for the primary version of a source code repository. Since, Oct. 1, 2020, any new repositories you create will use **main** as the default branch instead of master.<br />
 When you push the code for the first time it will ask you to enter the github username and password for authentication purpose.<br />
 **Exception:**<br />
-If you have multi-factor authentication enabled on github, your github password won't bypass the authentication method. In this case, you will need `personal access token`.
-- go to settings on github.
-- select developer settings.
-- choose personal access token.
-- copy the token.
-- paste the token in the password field while pushing the code.
+  If you have multi-factor authentication enabled on github, your github password won't bypass the authentication method. In this case, you will need `personal access token`.
+  - go to settings on github.
+  - select developer settings.
+  - choose personal access token.
+  - copy the token.
+  - paste the token in the password field while pushing the code.
 
